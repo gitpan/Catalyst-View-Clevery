@@ -26,7 +26,7 @@ my %WriteMakefileArgs = (
     'Moose' => '1.24',
     'Text::Clevery' => '0.0004'
   },
-  'VERSION' => '0.001',
+  'VERSION' => '0.002',
   'test' => {
     'TESTS' => 't/*.t'
   }

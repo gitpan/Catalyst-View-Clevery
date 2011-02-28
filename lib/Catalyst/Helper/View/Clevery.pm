@@ -3,7 +3,7 @@ BEGIN {
   $Catalyst::Helper::View::Clevery::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Catalyst::Helper::View::Clevery::VERSION = '0.001';
+  $Catalyst::Helper::View::Clevery::VERSION = '0.002';
 }
 # ABSTRACT: Helper class for Catalyst::View::Clevery
 
@@ -36,7 +36,7 @@ Catalyst::Helper::View::Clevery - Helper class for Catalyst::View::Clevery
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 

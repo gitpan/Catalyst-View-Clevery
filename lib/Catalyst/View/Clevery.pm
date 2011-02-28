@@ -3,7 +3,7 @@ BEGIN {
   $Catalyst::View::Clevery::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Catalyst::View::Clevery::VERSION = '0.001';
+  $Catalyst::View::Clevery::VERSION = '0.002';
 }
 # ABSTRACT: Clevery view for Catalyst (Smarty syntax)
 
@@ -14,6 +14,10 @@ use Text::Clevery;
 
 has '+xslate' => (
     isa => 'Text::Clevery',
+);
+
+has '+template_extension' => (
+    default => sub { '.tpl' },
 );
 
 sub _get_xslate {
@@ -32,7 +36,7 @@ Catalyst::View::Clevery - Clevery view for Catalyst (Smarty syntax)
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

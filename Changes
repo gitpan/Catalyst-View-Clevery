@@ -1,4 +1,7 @@
 Revision history for Catalyst-View-Clevery
 
+0.002     2011-02-28 04:21:41 Europe/Berlin
+	- Added correct default template_extension
+
 0.001     2011-02-28 03:56:51 Europe/Berlin
 	- First release (working)
